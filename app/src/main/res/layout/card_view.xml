@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content">
+
+ <LinearLayout
+  android:id="@+id/card"
+  android:layout_width="0dp"
+  android:layout_height="wrap_content"
+  android:layout_marginStart="16dp"
+  android:layout_marginTop="8dp"
+  android:layout_marginEnd="16dp"
+  android:layout_marginBottom="8dp"
+  android:background="@drawable/rounded_corners"
+  android:backgroundTint="#FFFFFF"
+  android:orientation="vertical"
+  android:translationZ="6dp"
+  app:layout_constraintBottom_toBottomOf="parent"
+  app:layout_constraintEnd_toEndOf="parent"
+  app:layout_constraintStart_toStartOf="parent"
+  app:layout_constraintTop_toTopOf="parent">
+
+  <LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:orientation="horizontal"
+   android:paddingLeft="10dp"
+   android:paddingRight="10dp">
+
+   <LinearLayout
+    android:layout_width="58dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical">
+
+    <TextView
+     android:id="@+id/textView12"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="12dp"
+     android:layout_marginBottom="2dp"
+     android:fontFamily="@font/poppins_light"
+     android:text="Name"
+     android:textSize="18sp" />
+
+    <TextView
+     android:id="@+id/textView13"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="2dp"
+     android:layout_marginBottom="2dp"
+     android:fontFamily="@font/poppins_light"
+     android:text="NIM"
+     android:textSize="18sp" />
+
+    <TextView
+     android:id="@+id/textView14"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="2dp"
+     android:layout_marginBottom="12dp"
+     android:fontFamily="@font/poppins_light"
+     android:text="Class"
+     android:textSize="18sp" />
+   </LinearLayout>
+
+   <LinearLayout
+    android:layout_width="241dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical">
+
+    <TextView
+     android:id="@+id/textName"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="12dp"
+     android:layout_marginBottom="2dp"
+     android:fontFamily="@font/poppins_light"
+     android:text="TextView"
+     android:textSize="18sp" />
+
+    <TextView
+     android:id="@+id/textNIM"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="2dp"
+     android:layout_marginBottom="2dp"
+     android:fontFamily="@font/poppins_light"
+     android:text="TextView"
+     android:textSize="18sp" />
+
+    <TextView
+     android:id="@+id/textClass"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="2dp"
+     android:layout_marginBottom="12dp"
+     android:fontFamily="@font/poppins_light"
+     android:text="TextView"
+     android:textSize="18sp" />
+   </LinearLayout>
+
+  </LinearLayout>
+
+ </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
